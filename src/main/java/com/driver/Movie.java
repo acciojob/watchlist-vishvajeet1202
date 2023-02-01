@@ -1,26 +1,20 @@
 package com.driver;
 
-import java.util.List;
-
 public class Movie {
-    private String name;
+    private  String name;
     private int durationInMinutes;
     private double imdbRating;
 
-
-    public Movie(){
-
+    public Movie() {
     }
 
-    public Movie(String name, int durationInMinutes, double imdbRating){
+    public Movie(String name, int durationInMinutes, double imdbRating) {
         this.name = name;
         this.durationInMinutes = durationInMinutes;
         this.imdbRating = imdbRating;
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
     public void setName(String name) {
         this.name = name;
